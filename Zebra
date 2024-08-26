@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tap to Earn</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; padding: 20px; }
+        .button { padding: 10px 20px; background-color: #007BFF; color: white; border: none; border-radius: 5px; cursor: pointer; }
+        .button:hover { background-color: #0056b3; }
+    </style>
+</head>
+<body>
+    <h1>Tap to Earn</h1>
+    <p>Click the button below to earn points!</p>
+    <button class="button" onclick="earnPoints()">Tap to Earn</button>
+
+    <script>
+        function earnPoints() {
+            // Logic to communicate with your bot server to increase points
+            alert("You clicked the button!");
+        }
+    </script>
+</body>
+</html>
+
