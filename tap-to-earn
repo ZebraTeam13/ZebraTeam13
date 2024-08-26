@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tap to Earn</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #333;
+        }
+        .button {
+            padding: 15px 30px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+        .message {
+            margin-top: 20px;
+            font-size: 18px;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tap to Earn</h1>
+    <p>Click the button below to earn points!</p>
+    <button class="button" onclick="earnPoints()">Tap to Earn</button>
+
+    <div id="message" class="message"></div>
+
+    <script>
+        function earnPoints() {
+            // Simulate an action such as earning points
+            document.getElementById('message').textContent = "You clicked the button! You've earned 1 point.";
+        }
+    </script>
+</body>
+</html>
